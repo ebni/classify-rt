@@ -1,0 +1,35 @@
+Title,Architectures/GPU,Compiler-WCET/multithreaded-proc sched/cache/stochastic/monitoring/measurements,OS/IO/disk/mem/bus/res-sharing,RT-network,1p scheduling,mP sched,Resource/QoS mgmt/compositional,distribu RTS/fault-tol/clock-sync/cloud,WSN,RT DB/data management,comb opt/sched/alloc/SAT/ILP/Design/SW-synt,power/temp/battery aware,Formal verification,Languages/specs/RT-Java/UML/SW-synt/ADA/middleware/ObjOr,mixed crit,Control/AI,testbeds/benchmarks/case-studies/avionics/aerospace/automotive/radar/video/medical/applications/GPS/surveillance,Sum weights
+Generalized Decision Aggregation in Distributed Sensing Systems,,,,,,,,,0.8,0.2,,,,,,,,1
+FLOPSYNC-2: efficient monotonic clock synchronisation,,,,,,,,0.7,0.2,,,,,,,0.1,,1
+Adaptive Mixed Criticality Scheduling with Deferred Preemption,,,,,,,,,,,,,,,1,,,1
+Scheduling mixed-criticality implicit-deadline sporadic task systems upon a varying-speed processor,,,,,,,,,,,,,,,1,,,1
+MC-Fluid: Fluid Model-based Mixed-Criticality Scheduling on Multiprocessors,,,,,,0.2,,,,,,,,,0.8,,,1
+Formal analysis of timing effects on closed-loop properties of control software,,,,,,,,,,,,,0.5,,,0.5,,1
+Improving Control Performance by Minimizing Jitter in RT-WiFi Networks,,,,0.8,,,,,,,,,,,,0.2,,1
+Towards Cyber-physical Systems in Social Spaces: The Data Reliability Challenge,,,,,,,,0.1,0.6,0.2,,,,,,,0.1,1
+vMPCP: A Synchronization Framework for Multi-Core Virtual Machines,,,0.8,,,0.2,,,,,,,,,,,,1
+"Fast on Average, Predictable in the Worst Case: Exploring Real-Time Futexes in LITMUS RT",,,1,,,,,,,,,,,,,,,1
+On the Complexity of Worst-Case Blocking Analysis of Nested Critical Sections,,,1,,,,,,,,,,,,,,,1
+A Framework for Automated Competitive Analysis of On-line Scheduling of Firm-Deadline Tasks,,,,,0.6,,,,,,,,0.4,,,,,1
+Deriving Unbounded Proof of Linear Hybrid Automata From Bounded Verification,,,,,,,,,,,,,1,,,,,1
+Real-Time Reachability for Verified Simplex Design,,,,,,,,,,,,,0.2,,,0.8,,1
+Fixed-Relative-Deadline Scheduling of Hard Real-Time Tasks with Self-Suspensions,,,,,1,,,,,,,,,,,,,1
+Integrating Cache-Related Pre-emption Delays into Analysis of Fixed Priority Scheduling with Pre-emption Thresholds,,0.2,,,0.8,,,,,,,,,,,,,1
+Bursty-Interference Analysis Techniques for Analyzing Complex Real-Time Task Models,,,,,1,,,,,,,,,,,,,1
+A Wormhole NoC Protocol for Mixed Criticality Systems,0.5,,,,,,,,,,,,,,0.5,,,1
+A Synchronous IPC Protocol for Predictable Access to Shared Resources in Mixed-Criticality Systems,,,0.7,,,,,,,,,,,,0.3,,,1
+A Dual-Criticality Memory Controller (Dcmc): Proposal and Evaluation of a Space Case Study,0.2,,0.6,,,,,,,,,,,,0.2,,,1
+PTEC: A System for Predictive Thermal and Energy Control in Data Centers,,,,,,,,0.3,,,,0.7,,,,,,1
+Real-Time Discharge/Charge Rate Management for Hybrid Energy Storage in Electric Vehicles,,,,,,,,,,,,0.7,,,,0.2,0.1,1
+Battery- and Aging-Aware Embedded Control Systems for Electric Vehicles,,,,,,,,,,,,0.6,,,,0.4,,1
+"Linux’s Processor Affinity API, Refined: Shifting Real-Time Tasks towards Higher Schedulability",,,0.8,,,0.2,,,,,,,,,,,,1
+Exploring the Multitude of Real-Time Multi-GPU Configurations,0.7,,0.2,,,0.1,,,,,,,,,,,,1
+Predictable Communication and Migration in the Quest-V Separation Kernel,,,1,,,,,,,,,,,,,,,1
+The Frame Packing Problem for CAN-FD,,,,1,,,,,,,,,,,,,,1
+Time-Reversibility of Schedulability Tests,,,,,0.5,0.5,,,,,,,,,,,,1
+Approximate Response Time Analysis of Real-Time Task Graphs,,,,,0.2,0.8,,,,,,,,,,,,1
+Independence Thresholds: Balancing Tractability and Practicality in Soft Real-Time Stochastic Analysis,,0.7,,,,0.3,,,,,,,,,,,,1
+"Gemini: A Non-Invasive, Energy-Harvesting True Power Meter",,,,,,,,,0.3,,,0.7,,,,,,1
+CapNet: A Real-Time Wireless Management Network for Data Center Power Capping,,,,0.3,,,,,0.7,,,,,,,,,1
+Wi-Sleep: Contactless Sleep Monitoring via WiFi Signals,,,,,,,,,0.6,,,0.4,,,,,,1
+TOTAL,1.4,0.9,6.1,2.1,4.1,2.3,0,1.1,3.2,0.4,0,3.1,2.1,0,3.8,2.2,0.2,33

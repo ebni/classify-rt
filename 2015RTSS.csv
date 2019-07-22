@@ -1,0 +1,36 @@
+Title,Architectures/GPU,Compiler-WCET/multithreaded-proc sched/cache/stochastic/monitoring/measurements,OS/IO/disk/mem/bus/res-sharing,RT-network,1p scheduling,mP sched,Resource/QoS mgmt/compositional,distribu RTS/fault-tol/clock-sync/cloud,WSN,RT DB/data management,comb opt/sched/alloc/SAT/ILP/Design/SW-synt,power/temp/battery aware,Formal verification,Languages/specs/RT-Java/UML/SW-synt/ADA/middleware/ObjOr,mixed crit,Control/AI,testbeds/benchmarks/case-studies/avionics/aerospace/automotive/radar/video/medical/applications/GPS/surveillance,Sum weights
+"Global Real-Time Semaphore Protocols: A Survey, Unified Analysis, and Comparison",,,0.8,,,0.2,,,,,,,,,,,,1
+A Quadratic-Time Response Time Upper Bound with a Tightness Property,,,,,1,,,,,,,,,,,,,1
+Distributed Deadline and Renewable Aware Electric Vehicle Demand Response in the Smart Grid,,,,,,,,0.7,,,,0.3,,,,,,1
+Modeling and Scheduling of Large-Scale Batteries for Maximizing Performance,,,,,,,,,,,,0.7,,,,0.3,,1
+Co-Design of Anytime Computation and Robust Control,,,,,,,,,,,,,,,,1,,1
+Improved DRAM Timing Bounds for Real-Time DRAM Controllers with Read/Write Bundling,,,1,,,,,,,,,,,,,,,1
+Modular Performance Analysis of Energy-Harvesting Real-Time Networked Systems,,,,,,,,0.3,,,,0.7,,,,,,1
+Platform-Specific Code Generation from Platform-Independent Timed Models,,,,,,,,,,,,,0.8,,,0.2,,1
+Uniprocessor Feasibility of Sporadic Tasks Remains coNP-complete Under Bounded Utilization,,,,,1,,,,,,,,,,,,,1
+Quantifying the Exact Sub-Optimality of Non-Preemptive Scheduling,,,,,1,,,,,,,,,,,,,1
+k2U: A General Framework from k-Point Effective Schedulability Analysis to Utilization-Based Tests,,,,,0.6,0.4,,,,,,,,,,,,1
+Optimal Real-Time Scheduling on Two-Type Heterogeneous Multicore Platforms,0.2,,,,,0.8,,,,,,,,,,,,1
+Response Time Analysis with Limited Carry-in for Global Earliest Deadline First Scheduling,,,,,,1,,,,,,,,,,,,1
+An Isolation Scheduling Model for Multicores,,,,,,0.6,0.2,,,,,,,,0.2,,,1
+Relaxing Resource-Sharing Constraints for Improved Hardware Management and Schedulability,,,0.4,,,0.6,,,,,,,,,,,,1
+Schedulability Analysis under Graph Routing in WirelessHART Networks,,,,0.6,,,,,0.4,,,,,,,,,1
+Reverse Flooding: exploiting radio interference for efficient propagation delay compensation in WSN clock synchronization,,,,0.2,,,,0.5,0.3,,,,,,,,,1
+Data Acquisition for Real-time Decision-making under Freshness Constraints,,,,,,,,0.1,,0.9,,,,,,,,1
+Periodically-Scheduled Controller Analysis using Hybrid Systems Reachability and Continuization,,,,,,,,,,,,,0.6,,,0.4,,1
+Tradeoffs in Real-Time Robotic Task Design with Neuroevolution Learning for Imprecise Computation,,,,,,,,,,,,,,,,1,,1
+Analyzing Real Time Embedded Control Systems Using Software Verification,,,,,,,,,,,,,0.3,,,0.7,,1
+Inter-Cell Channel Time-Slot Scheduling for Multichannel Multiradio Cellular Fieldbuses,,,,1,,,,,,,,,,,,,,1
+Q-offload: Quality Aware WiFi Offloading with Link Dynamics,,,,0.8,,,,,0.2,,,,,,,,,1
+When is CAN the Weakest Link? A Bound on Failures-In-Time in CAN-Based Real-Time Systems,,,,1,,,,,,,,,,,,,,1
+Qduino: A Multithreaded Arduino System for Embedded Computing,,,1,,,,,,,,,,,,,,,1
+Supporting Real-Time Computer Vision Workloads using OpenVX on Multicore+GPU Platforms,0.3,,0.7,,,,,,,,,,,,,,,1
+SounDroid: Supporting Real-Time Sound Applications on Commodity Mobile Devices,,,1,,,,,,,,,,,,,,,1
+Reducing the Implementation Overheads of IPCP and DFP,,,1,,,,,,,,,,,,,,,1
+Cache Sharing and Isolation Tradeoffs in Multicore Mixed-Criticality Systems,,,0.6,,,,,,,,,,,,0.4,,,1
+Dynamic Control for Mixed-Critical Networks-On-Chip.,0.2,,0.2,,,,,,,,,,,,0.6,,,1
+MC-Fluid: simplified and optimally quantified,,,,0.3,,,,,,,,,,,0.7,,,1
+EPC: Extended Path Coverage for Measurement-based Probabilistic Timing Analysis,,1,,,,,,,,,,,,,,,,1
+Precise Multi-Level Inclusive Cache Analysis for WCET Estimation,,1,,,,,,,,,,,,,,,,1
+Static Probabilistic Timing Analysis for Multi-path Programs,,1,,,,,,,,,,,,,,,,1
+TOTAL,0.7,3,6.7,3.9,3.6,3.6,0.2,1.6,0.9,0.9,0,1.7,1.7,0,1.9,3.6,0,34
