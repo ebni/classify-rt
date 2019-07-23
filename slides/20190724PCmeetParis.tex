@@ -93,7 +93,7 @@
 
 \institute[UniTo, Torino, Italy]{University of Turin}
 
-\date[RTOPS'19, 24/07/2019]{Real-Time Systems Open Problems Seminar\\
+\date[RTSOPS'19, 24/07/2019]{Real-Time Systems Open Problems Seminar\\
 {\small (special edition @RTSS19 PC meeting)}\\ July 24th, 2019}
 
 
@@ -141,6 +141,8 @@
     \item Growing number of papers per year
     \item ``Publish or perish'' pressure reduces the care in paper
       writing, including review/study of existing research
+    \item Tendency to delegate to AI-something (most notably Google
+      scholar) the job of finding related works
     \end{itemize}
   \item (personal motivation) I decided to illustrate at my new
     department (in Turin) what real-time research is about
@@ -148,15 +150,15 @@
   \end{itemize}
 \end{frame}
 
-\section{Classification of RTSS papers: results}
+\section{Classification of RTSS papers}
 
 
 \begin{frame}
   \frametitle{Classification of RTSS papers: methodology}
   
   \begin{itemize}
-  \item Assuming that RTSS papers are a representative sample of the
-    research on real-time systems
+  % \item Assuming that RTSS papers represents the research on real-time
+  %   systems
   \item Exhaustive classification of all RTSS papers available on
     IEEExplore (from 1990 to 2015): 927 papers.  
   \item Took three full days of work
@@ -171,16 +173,19 @@
       \]
     \item Weights $w_{ij}$ were computed by
       \begin{itemize}
-      \item reading the title: 60\% of papers
-      \item reading the abstract: 35\%
-      \item reading the paper: 5\%
+      \item reading the title: 45\% of papers
+      \item reading the abstract: 50\%
+      \item scanning the paper: 5\%
       \end{itemize}
     \end{enumerate}
-  \item Example
+  \item Example: R.J.~Bril, S.~Altmeyer, M.M.H.P.~ van den Heuvel,
+    R.I.~Davis, and M.~Behnam, ``Integrating Cache-Related Pre-Emption
+    Delays into Analysis of Fixed Priority Scheduling with Pre-Emption
+    Thresholds'', RTSS 2014
     \begin{itemize}
-    \item Paper $j$=``XYZ'' by \dots was assigned:
-    \item $i=\text{topic 1}$, $w_{ij}=X$
-    \item $i=\text{topic 2}$, $w_{ij}=X$
+    \item $w_{ij}=0.8$, $i=$1-SCHED (single proc.~sched.~analysis)
+    \item $w_{ij}=0.2$, $i=$WCET (Compiler-WCET/multithreaded-proc
+      sched/cache/stochastic/monitoring/measurements)
     \end{itemize}
   \end{itemize}
 \end{frame}
@@ -230,13 +235,13 @@
 \end{frame}
 
 
-\begin{frame}
-  \frametitle{More methodology}
-  \begin{itemize}
-  \item sum of ``topics'' per year is computed (plot in next)
-  \item data is filtered to smooth the trends
-  \end{itemize}
-\end{frame}
+% \begin{frame}
+%   \frametitle{More methodology}
+%   \begin{itemize}
+%   \item sum of ``topics'' per year is computed (plot in next)
+%   \item data is filtered to smooth the trends
+%   \end{itemize}
+% \end{frame}
   
 
 \begin{frame}[fragile]
@@ -250,13 +255,13 @@
     which you can get by
     \verb|git clone https://github.com/ebni/classify-rt.git|
   \item After chatting with Jim Anderson about this effort, he
-    proposed me to publish the data on the IEEE TCRTS
+    proposed me to publish the figure on the IEEE TCRTS
   \end{itemize}
   \begin{center}
     \url{http://sites.ieee.org/tcrts/classification-of-rtss-papers/}
   \end{center}
   \begin{itemize}
-  \item The repository contains:
+  \item The git repository contains:
     \begin{itemize}
     \item the raw data $w_{ij}$ paper data (\texttt{.csv} format) of
       2014, 2015
@@ -267,8 +272,8 @@
     \end{itemize}
   \item Adding a new year requires:
     \begin{itemize}
-    \item assign all $w_{ij}$ (about 2 hours depending)
-    \item copy/paste data to some 
+    \item to assign all $w_{ij}$ (about 2 hours depending on level of details)
+    \item to copy/paste data over an \texttt{.xlsx} file 
     \end{itemize}
   \end{itemize}
 \end{frame}
@@ -277,17 +282,26 @@
 
 \begin{frame}
   \frametitle{Possible contributions (welcome)}
-  \begin{itemize}
-  \item Inserting the data for any new paper
+  \begin{enumerate}
+  \item Extending to years not covered
   \item Revise the weights assigned by me (in 1 minute)
-  \item Add new years (older/newer)
   \item Make data processing more automated (by scripts, python)
-  \item Write a leterature review of all RTSS papers: once papers are
+  \item Adding other conferences
+  \item Refine the classification into more topics (17 was picked just
+    to ease the plot)
+  \item Write a literature review of all RTSS papers: once papers are
     classified, adding a line to a survey would not cost much
-  \item Open: this classification may have some value to be shared to
-    our community as well as to neighboring community
+  % \item Open: this classification may have some value to be shared to
+  %   our community as well as to neighboring community
   \item Adding a DoI to each document
-  \end{itemize}
+  \item Having well in mind that: Writing a to-do item is much simpler
+    than doing it\dots
+  \end{enumerate}
+  \pause
+  \begin{center}
+    \Large
+    Volunteers are welcome!
+  \end{center}
 \end{frame}
 
 
