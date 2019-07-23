@@ -1,13 +1,13 @@
 # Classification of Real-Time papers
 ## History of this repo
 
-This repository contains an effort to classify papers which appeared at real-time conferences.
+This repository contains an effort to classify papers which appeared at RTSS, the flagship conference of the real-time systems community.
 
 I did it in 2013 and kept it updated for a couple of years. Some collegues demonstrated some interest on this classification. So now I'm sharing it, open to contributions and help.
 
 ## Methodology
 
-All papers published in [IEEE Real-Time Systems Symposium (RTSS)](http://www.rtss.org/) from 1990 to 2015 are classified.
+All papers published at [IEEE Real-Time Systems Symposium (RTSS)](http://www.rtss.org/) from 1990 to 2015 are classified.
 
 Each paper is assigned a vector of weights with sum equal to 1.
 
@@ -22,24 +22,25 @@ Each weight corresponds to the relation of the paper to the sub-areas listed bel
 - WSN: wireless sensor networks, Internet of Things (IoT)
 - DISTR: distributed systems, fault-tolerance, synchronization
 - RES: QoS/resource management
-- M_SCHED: multiprocessor/multicore scheduling
+- M_SCHED: multiprocessor/multicore/manycore scheduling
 - 1_SCHED: single processor scheduling
 - NETW: real-time networks
 - OS: operating systems, I/O, resource sharing
 - WCET: worst-case execution time analysis
-- HW: hardware support
+- HW: hardware support/design for real-time systems
 
 The choice of the above classification was hard. It responded to many, possibly conflicting goals, including:
 - the necessity to visually render the trends in a human readable form
 - the aim of capturing long-term trends
 Something different was possible. As always.
 
+## Contributions
 
-METHODOLOGY (maybe some text should go in the PREAMBLE)
+Contributions are very welcome. Below a list of possible extensions. Have you any other idea? Please feel free to contact me:
+- to add the weights of new papers
+- to revise the weights of papers which you know well
+- to automate the data processing (by scripts)
+- to write a literature review of all RTSS papers (not just weights)
+- to add the DoI of papers
 
-All papers published at RTSS since 1990 were classified. The classification of a paper was made by assigning a tag, representing the research area, and a weight to the tag measuring how much the paper belongs to that area. The sum of the weights assigned to each paper is one. To ease a graphical representation, the reported data is filtered.
-
-NOTE
-
-If you want to put my name on it "the classification is made by Enrico Bini ..." I'm fine. I have nothing against not in favour. Up to you, the TC chair, or the Executive Committee.
 
