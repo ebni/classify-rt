@@ -160,12 +160,12 @@
   % \item Assuming that RTSS papers represents the research on real-time
   %   systems
   \item Exhaustive classification of all RTSS papers available on
-    IEEExplore (from 1990 to 2015): 927 papers.  
+    IEEExplore (from 1990 to 2015): 994 papers.  
   \item Took three full days of work
     \begin{enumerate}
     \item a number $n$ ($=17$) of topics was identified (personal
       choice)
-    \item each (of the 927) paper $j$ was assigned a weight
+    \item each (of the 994) paper $j$ was assigned a weight
       $w_{ij}\geq 0$ representing how much such paper $j$ is related
       to topic $i$
       \[
@@ -173,9 +173,9 @@
       \]
     \item Weights $w_{ij}$ were computed by
       \begin{itemize}
-      \item reading the title: 45\% of papers
-      \item reading the abstract: 50\%
-      \item scanning the paper: 5\%
+      \item reading the title %: 45\% of papers
+      \item reading the abstract %: 50\%
+      \item scanning the paper %: 5\%
       \end{itemize}
     \end{enumerate}
   \item Example: R.J.~Bril, S.~Altmeyer, M.M.H.P.~van den Heuvel,
@@ -263,7 +263,7 @@
     \item the aggregate $\sum_{j\in\mathsf{paperPerYear}(y)}w_{ij}$
       per topic $i$ data of 1990--2013 (source $w_{ij}$ are probably
       lost)
-    \item this presentation
+    \item this presentation (which you can compile via Makefile)
     \end{itemize}
   \item Adding a new year requires:
     \begin{itemize}
