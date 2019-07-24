@@ -153,7 +153,7 @@
 \section{Classification of RTSS papers}
 
 
-\begin{frame}
+\begin{frame}[fragile]
   \frametitle{Classification of RTSS papers: methodology}
   
   \begin{itemize}
@@ -179,9 +179,9 @@
       \end{itemize}
     \end{enumerate}
   \item Example: R.J.~Bril, S.~Altmeyer, M.M.H.P.~van den Heuvel,
-    R.I.~Davis, and M.~Behnam, ``Integrating Cache-Related Pre-Emption
-    Delays into Analysis of Fixed Priority Scheduling with Pre-Emption
-    Thresholds'', RTSS 2014
+    R.I.~Davis, and M.~Behnam,
+    \href{https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7010484}
+    {``Integrating CRPD into FP \dots''}, RTSS 2014
     \begin{itemize}
     \item $w_{ij}=0.8$, $i=$1-SCHED (single proc.~sched.~analysis)
     \item $w_{ij}=0.2$, $i=$WCET (Compiler-WCET/multithreaded-proc
@@ -254,12 +254,7 @@
     \end{center}
     which you can get by
     \verb|git clone https://github.com/ebni/classify-rt.git|
-  \item After chatting with Jim Anderson about this effort, he
-    proposed me to publish the figure on the IEEE TCRTS
   \end{itemize}
-  \begin{center}
-    \url{http://sites.ieee.org/tcrts/classification-of-rtss-papers/}
-  \end{center}
   \begin{itemize}
   \item The git repository contains:
     \begin{itemize}
@@ -274,8 +269,21 @@
     \begin{itemize}
     \item to assign all $w_{ij}$ (about 2 hours depending on level of details)
     \item to copy/paste data over an \texttt{.xlsx} file 
+    \item some LibreOffice/Excel work
     \end{itemize}
   \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Published at IEEE TCRTS}
+  \begin{itemize}
+  \item After chatting with Jim Anderson about this effort, he
+    proposed me to publish the figure on the IEEE TCRTS
+  \end{itemize}
+  \begin{center}
+    \includegraphics[scale=.32]{figs/tcrts_screen}\\
+    \url{http://sites.ieee.org/tcrts/classification-of-rtss-papers/}
+  \end{center}
 \end{frame}
 
 \section{Future}
@@ -284,7 +292,7 @@
   \frametitle{Possible contributions (welcome)}
   \begin{enumerate}
   \item Extending to years not covered
-  \item Revise the weights assigned by me (in 1 minute)
+  \item Revise the weights assigned by me
   \item Make data processing more automated (by scripts, python)
   \item Adding other conferences
   \item Refine the classification into more topics (17 was picked just

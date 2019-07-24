@@ -1,4 +1,4 @@
-20190724PCmeetParis.pdf:	20190724PCmeetParis.tex figs/topicsRT_2015.eps
+20190724PCmeetParis.pdf:	20190724PCmeetParis.tex figs/topicsRT_2015.eps figs/tcrts_screen.eps
 	latex 20190724PCmeetParis.tex
 	dvips 20190724PCmeetParis.dvi
 	ps2pdf 20190724PCmeetParis.ps
